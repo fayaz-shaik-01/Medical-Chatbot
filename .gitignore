@@ -1,0 +1,85 @@
+# -----------------------------
+# Python
+# -----------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pyd
+*.pyo
+*.pyd
+*.egg-info/
+*.eggs/
+*.manifest
+*.spec
+
+# -----------------------------
+# Virtual environments
+# -----------------------------
+.venv/
+env/
+ENV/
+venv/
+.venv/*
+env
+ .env
+# -----------------------------
+# Distribution / packaging
+# -----------------------------
+build/
+dist/
+*.egg
+*.whl
+*.tar.gz
+
+# -----------------------------
+# Logs
+# -----------------------------
+*.log
+logs/
+*.out
+*.err
+
+# -----------------------------
+# ML / Experiment tracking
+# -----------------------------
+mlruns/
+artifacts/
+great_expectations/uncommitted/
+*.h5
+*.pt
+*.ckpt
+*.pkl
+
+# -----------------------------
+# Jupyter / Notebooks
+# -----------------------------
+.ipynb_checkpoints/
+
+# -----------------------------
+# OS-specific
+# -----------------------------
+.DS_Store
+Thumbs.db
+
+# -----------------------------
+# Editor / IDE
+# -----------------------------
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# -----------------------------
+# Docker / CI
+# -----------------------------
+docker-compose.override.yml
+.env
+*.env
+
+# -----------------------------
+# Other temp files
+# -----------------------------
+*.tmp
+*.swp
